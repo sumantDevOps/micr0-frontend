@@ -4,9 +4,9 @@ import e from '../event-bus'
 @Component({
   selector: 'AngularApp',
   template: `
-		<div style="margin-top: 100px;">
+		<div style="margin: 10px;">
       <h1>This was written in Angular</h1>
-      <p>{{message}}</p>
+      <p>Hello from React: {{message[0].title}} and value: {{message[0].body}}</p>
 		</div>
 	`,
 })

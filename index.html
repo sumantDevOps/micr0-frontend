@@ -4,14 +4,64 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>React/Angular Single SPA</title>
-
+  <link rel = "stylesheet" type = "text/css" href = "home.css" />
   <style type="text/css">
     body {
       font-family: Arial;
     }
   </style>
+  <style>
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111D4A;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      width: 100%;
+      height: 75px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .navbar ul {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      height: 100%;
+    }
+    
+    .navbar li {
+      padding-right: 24px;
+      height: 100%;
+    }
+    
+    .navbar li:hover {
+      opacity: 0.8;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
 </head>
 <body>
+  <div class="navbar">
+    <ul>
+      <a onclick="singleSpaNavigate('/')">
+        <li>
+          Home
+        </li>
+      </a>
+      <a onclick="singleSpaNavigate('/reactNew')">
+        <li>
+          New Component
+        </li>
+      </a>
+    </ul>
+  </div>
   <!-- Load the application -->
   <script src="/dist/common-dependencies.js"></script>
   <script src="/dist/root-application.js"></script>

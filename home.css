@@ -1,0 +1,23 @@
+div#angular {
+    float: left;
+    width: 30%;
+}
+
+div#react {
+    float: left;
+    width: 27%;
+    border-right: 2px solid #343a40;
+}
+
+ul.get-data-ul {
+    padding-inline-start: 6px;
+}
+
+ul.get-data-ul li {
+    margin: 10px 7px;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
