@@ -3,7 +3,7 @@
 ## Running the app
 #### Clone the code 
 ```bash
-git clone  && cd react-angular-single-spa
+git clone https://github.com/sumantDevOps/micr0-frontend.git && cd react-angular-single-spa
 ```
 
 #### Install dependencies
