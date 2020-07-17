@@ -18,6 +18,7 @@ npm start
 
 #### Open `http://localhost:9090/#/` in browser
 
-You should see something like this:
+I am using following link to create project:
 
-![example]
+1. https://single-spa.js.org/docs/getting-started-overview
+2. https://ivanjov.com/micro-frontends-how-i-built-a-spa-with-angular-and-react/
