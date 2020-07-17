@@ -20,4 +20,4 @@ npm start
 
 You should see something like this:
 
-![example](https://raw.githubusercontent.com/IvanJov/react-angular-single-spa/master/example.png)
+![example]
